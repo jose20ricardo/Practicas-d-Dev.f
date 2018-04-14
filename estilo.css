@@ -1,0 +1,27 @@
+    p{
+        color:aqua;
+        border: 2px solid #0fff0f;
+        text-transform: uppercase
+    }
+    h1 {
+        color:blanchedalmond;
+        border: 2px solid cadetblue;
+        margin: 25px;
+        text-decoration: line-through
+    } 
+    body{
+        background-color: orange;
+        border:2px dashed #000f;
+        padding: 18px;
+    }
+     .color{
+        color: black
+        border: 4px dashed #000f;
+     }
+    .color:hover{
+        color: navy;
+        text-decoration:line-through;
+    }
+     #el-parafo:hover{
+         background-color: firebrick;
+    }
