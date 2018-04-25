@@ -21,8 +21,6 @@ let cinata_blanca = [
     }
 ]
 for(i=0;i<cinata_blanca.length;i++){
-     let h1=document.createElement("h1");
-     let texto=document.createTextNode("este es"+cinata_blanca[i].nombre+"y tiene"+cinata_blanca[i].edad+"años")
-     h1.appendChild(texto);
-     elbody.appendChild(h1);
+     let h1=$("<h1>"+"este es"+cinata_blanca[i].nombre+"y tiene"+cinata_blanca[i].edad+"años</h1>");
+    $("#elbody").append(h1);
 }
